@@ -1,0 +1,15 @@
+# visual studio code의 설정 파일은 제외한다.
+.vscode/
+bin/
+build/
+.gradle/
+
+*.zip
+*.log
+*.class
+
+# *.[ca]              
+# [] 안에있는건 or가 된다. ex .c , .a로 끝나는것은 무시한다.
+*~
+!app.log 
+# .log 로 모든로그파일을 제거하지만 앞에 !를 붙이면 그건 제외한다.  
